@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.053" height="60.333" viewBox="0 0 102.053 60.333">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="red"/>
+      <stop offset="1" stop-color="maroon"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.666" gradientTransform="translate(0.138 1) rotate(-90) scale(1 0.724)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8f3b25"/>
+      <stop offset="1" stop-color="#bb6819"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_141" data-name="Group 141" transform="translate(-144 307.333) rotate(-90)">
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(247 144)" fill="url(#radial-gradient)">
+      <path d="M 59.45940399169922 50.84729385375977 L 0.873656690120697 50.84729385375977 L 30.16653060913086 0.9870793223381042 L 59.45940399169922 50.84729385375977 Z" stroke="none"/>
+      <path d="M 30.16653060913086 1.974136352539063 L 1.747306823730469 50.34728622436523 L 58.58575439453125 50.34728622436523 L 30.16653060913086 1.974136352539063 M 30.16653060913086 -3.814697265625e-06 L 60.33306121826172 51.34728622436523 L 0 51.34728622436523 L 30.16653060913086 -3.814697265625e-06 Z" stroke="none" fill="#707070"/>
+    </g>
+    <path id="Polygon_3" data-name="Polygon 3" d="M30.167,0,60.333,51.347H0Z" transform="translate(307.333 246.053) rotate(180)" fill="url(#radial-gradient-2)"/>
+  </g>
+</svg>

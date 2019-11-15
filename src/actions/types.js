@@ -1,0 +1,10 @@
+export const SEARCH_MOVIE = 'SEARCH_MOVIE';
+export const FETCH_MOVIES = 'FETCH_MOVIES';
+export const FETCH_MOVIE = 'FETCH_MOVIE';
+export const LOADING = 'LOADING';
+export const NEXT_PAGE = 'NEXT_PAGE';
+export const PREVIOUS_PAGE = 'PREVIOUS_PAGE';
+export const RATE_MOVIE = 'RATE_MOVIE';
+export const SET_TOTAL = 'SET_TOTAL';
+export const SORT_BY = 'SORT_BY';
+export const GET_ALL_MOVIES = 'GET_ALL_MOVIES';

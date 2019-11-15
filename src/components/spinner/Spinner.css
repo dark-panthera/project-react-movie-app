@@ -1,0 +1,256 @@
+:root{
+  --spinner-color:blue;
+}
+
+/* Spinner Rotating */
+.spinner.spinner-rotating {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+  animation: spinner-rotating 1s linear infinite;
+  top: 50%;
+  margin: -8px auto 0;
+}
+
+@keyframes spinner-rotating {
+  0% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.05), 19px -19px 0 0 rgba(0, 82, 236, 0.1), 27px 0 0 0 rgba(0, 82, 236, 0.2), 19px 19px 0 0 rgba(0, 82, 236, 0.3), 0 27px 0 0 rgba(0, 82, 236, 0.4), -19px 19px 0 0 rgba(0, 82, 236, 0.6), -27px 0 0 0 rgba(0, 82, 236, 0.8), -19px -19px 0 0 rgb(0, 82, 236);
+  }
+
+  12.5% {
+    box-shadow: 0 -27px 0 0 rgb(0, 82, 236), 19px -19px 0 0 rgba(0, 82, 236, 0.05), 27px 0 0 0 rgba(0, 82, 236, 0.1), 19px 19px 0 0 rgba(0, 82, 236, 0.2), 0 27px 0 0 rgba(0, 82, 236, 0.3), -19px 19px 0 0 rgba(0, 82, 236, 0.4), -27px 0 0 0 rgba(0, 82, 236, 0.6), -19px -19px 0 0 rgba(0, 82, 236, 0.8);
+  }
+
+  25% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.8), 19px -19px 0 0 rgb(0, 82, 236), 27px 0 0 0 rgba(0, 82, 236, 0.05), 19px 19px 0 0 rgba(0, 82, 236, 0.1), 0 27px 0 0 rgba(0, 82, 236, 0.2), -19px 19px 0 0 rgba(0, 82, 236, 0.3), -27px 0 0 0 rgba(0, 82, 236, 0.4), -19px -19px 0 0 rgba(0, 82, 236, 0.6);
+  }
+
+  37.5% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.6), 19px -19px 0 0 rgba(0, 82, 236, 0.8), 27px 0 0 0 rgb(0, 82, 236), 19px 19px 0 0 rgba(0, 82, 236, 0.05), 0 27px 0 0 rgba(0, 82, 236, 0.1), -19px 19px 0 0 rgba(0, 82, 236, 0.2), -27px 0 0 0 rgba(0, 82, 236, 0.3), -19px -19px 0 0 rgba(0, 82, 236, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.4), 19px -19px 0 0 rgba(0, 82, 236, 0.6), 27px 0 0 0 rgba(0, 82, 236, 0.8), 19px 19px 0 0 rgb(0, 82, 236), 0 27px 0 0 rgba(0, 82, 236, 0.05), -19px 19px 0 0 rgba(0, 82, 236, 0.1), -27px 0 0 0 rgba(0, 82, 236, 0.2), -19px -19px 0 0 rgba(0, 82, 236, 0.3);
+  }
+
+  62.5% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.3), 19px -19px 0 0 rgba(0, 82, 236, 0.4), 27px 0 0 0 rgba(0, 82, 236, 0.6), 19px 19px 0 0 rgba(0, 82, 236, 0.8), 0 27px 0 0 rgb(0, 82, 236), -19px 19px 0 0 rgba(0, 82, 236, 0.05), -27px 0 0 0 rgba(0, 82, 236, 0.1), -19px -19px 0 0 rgba(0, 82, 236, 0.2);
+  }
+
+  75% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.2), 19px -19px 0 0 rgba(0, 82, 236, 0.3), 27px 0 0 0 rgba(0, 82, 236, 0.4), 19px 19px 0 0 rgba(0, 82, 236, 0.6), 0 27px 0 0 rgba(0, 82, 236, 0.8), -19px 19px 0 0 rgb(0, 82, 236), -27px 0 0 0 rgba(0, 82, 236, 0.05), -19px -19px 0 0 rgba(0, 82, 236, 0.1);
+  }
+
+  87.5% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.1), 19px -19px 0 0 rgba(0, 82, 236, 0.2), 27px 0 0 0 rgba(0, 82, 236, 0.3), 19px 19px 0 0 rgba(0, 82, 236, 0.4), 0 27px 0 0 rgba(0, 82, 236, 0.6), -19px 19px 0 0 rgba(0, 82, 236, 0.8), -27px 0 0 0 rgb(0, 82, 236), -19px -19px 0 0 rgba(0, 82, 236, 0.05);
+  }
+
+  100% {
+    box-shadow: 0 -27px 0 0 rgba(0, 82, 236, 0.05), 19px -19px 0 0 rgba(0, 82, 236, 0.1), 27px 0 0 0 rgba(0, 82, 236, 0.2), 19px 19px 0 0 rgba(0, 82, 236, 0.3), 0 27px 0 0 rgba(0, 82, 236, 0.4), -19px 19px 0 0 rgba(0, 82, 236, 0.6), -27px 0 0 0 rgba(0, 82, 236, 0.8), -19px -19px 0 0 rgb(0, 82, 236);
+  }
+}
+
+
+/* Orbit Spinner */
+.spinner.spinner-orbit {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  perspective: 800px;
+  margin: 0 auto;
+}
+
+.spinner.spinner-orbit .orbit {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.spinner.spinner-orbit .orbit:nth-child(1) {
+  left: 0%;
+  top: 0%;
+  animation: orbit-spinner-orbit-one-animation 1200ms linear infinite;
+  border-bottom: 3px solid var(--spinner-color);
+}
+
+.spinner.spinner-orbit .orbit:nth-child(2) {
+  right: 0%;
+  top: 0%;
+  animation: orbit-spinner-orbit-two-animation 1200ms linear infinite;
+  border-right: 3px solid var(--spinner-color);
+}
+
+.spinner.spinner-orbit .orbit:nth-child(3) {
+  right: 0%;
+  bottom: 0%;
+  animation: orbit-spinner-orbit-three-animation 1200ms linear infinite;
+  border-top: 3px solid var(--spinner-color);
+}
+
+@keyframes orbit-spinner-orbit-one-animation {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes orbit-spinner-orbit-two-animation {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes orbit-spinner-orbit-three-animation {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+/* Rhombus */
+.spinner.spinner-breeding-rhombus {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.spinner.spinner-breeding-rhombus,
+.spinner.spinner-breeding-rhombus * {
+  box-sizing: border-box;
+}
+
+.spinner.spinner-breeding-rhombus .rhombus {
+  height: calc(65px / 7.5);
+  width: calc(65px / 7.5);
+  animation-duration: 2000ms;
+  top: calc(65px / 2.3077);
+  left: calc(65px / 2.3077);
+  background-color:  var(--spinner-color);/* #ff1d5e;*/
+  position: absolute;
+  animation-iteration-count: infinite;
+}
+
+.spinner.spinner-breeding-rhombus .rhombus:nth-child(2n+0) {
+  margin-right: 0;
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-1 {
+  animation-name: spinner-breeding-rhombus-animation-child-1;
+  animation-delay: calc(100ms * 1);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-2 {
+  animation-name: spinner-breeding-rhombus-animation-child-2;
+  animation-delay: calc(100ms * 2);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-3 {
+  animation-name: spinner-breeding-rhombus-animation-child-3;
+  animation-delay: calc(100ms * 3);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-4 {
+  animation-name: spinner-breeding-rhombus-animation-child-4;
+  animation-delay: calc(100ms * 4);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-5 {
+  animation-name: spinner-breeding-rhombus-animation-child-5;
+  animation-delay: calc(100ms * 5);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-6 {
+  animation-name: spinner-breeding-rhombus-animation-child-6;
+  animation-delay: calc(100ms * 6);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-7 {
+  animation-name: spinner-breeding-rhombus-animation-child-7;
+  animation-delay: calc(100ms * 7);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.child-8 {
+  animation-name: spinner-breeding-rhombus-animation-child-8;
+  animation-delay: calc(100ms * 8);
+}
+
+.spinner.spinner-breeding-rhombus .rhombus.big {
+  height: calc(65px / 3);
+  width: calc(65px / 3);
+  animation-duration: 2000ms;
+  top: calc(65px / 3);
+  left: calc(65px / 3);
+  background-color: var(--spinner-color);/* #ff1d5e;*/
+  animation: spinner-breeding-rhombus-animation-child-big 2s infinite;
+  animation-delay: 0.5s;
+}
+
+
+@keyframes spinner-breeding-rhombus-animation-child-1 {
+  50% {
+    transform: translate(-325%, -325%);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-2 {
+  50% {
+    transform: translate(0, -325%);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-3 {
+  50% {
+    transform: translate(325%, -325%);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-4 {
+  50% {
+    transform: translate(325%, 0);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-5 {
+  50% {
+    transform: translate(325%, 325%);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-6 {
+  50% {
+    transform: translate(0, 325%);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-7 {
+  50% {
+    transform: translate(-325%, 325%);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-8 {
+  50% {
+    transform: translate(-325%, 0);
+  }
+}
+
+@keyframes spinner-breeding-rhombus-animation-child-big {
+  50% {
+    transform: scale(0.5);
+  }
+}

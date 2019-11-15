@@ -1,0 +1,97 @@
+.movie--card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
+}
+.movie--card .drop-shadow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.movie--poster, .movie--poster img {
+    display: flex;
+    width: auto;
+    height: 580px;
+    justify-content: center;
+    align-content: center;
+}
+
+ul.list-group {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie--information,
+li.list-group-item {
+    display: grid;
+    grid-template-areas:
+        "title titlevalue"
+        "genre genrevalue"
+        "date date"
+        "rated rated"
+        "imdbRating imdbRating"
+        "director director"
+        "writer writer"
+        "description description"
+        "description description";
+}
+
+.label--title {
+    grid-area: title;
+}
+.label--title--value { 
+    grid-area: titlevalue;  
+}
+
+.label--genre{
+    grid-area: genre;
+}
+.label--genre--value{
+    grid-area: genrevalue;
+}
+
+.movie--details
+{
+    color: #a3a3a3;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    background: #151520;
+    margin: 0 4rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 0 0 3rem 0;
+}
+
+.center a,
+.center a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #0A849B;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.dv-star-rating {
+    font-size: 2.5rem;
+}
+.dv-star-rating:hover{
+    color: rgb(255, 141, 0);
+}
+
+.rating--container {
+    margin: 0 auto;
+}
