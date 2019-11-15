@@ -61,6 +61,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 ### Deployment
 
+
+
+I have also included a prototype, I have ended up doing courses for D3 since I used other different chart libraries for me it was something new.
+
+
+
+
+
+
+
+
+
+
+
+
+
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `yarn build` fails to minify
