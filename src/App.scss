@@ -145,10 +145,6 @@ ul.sort--ul li a:hover {
 }
 
 /***************************************************/
-.card--section {
-  /* background-color: #ccc; */
-
-}
 
 .card--container {
   grid-auto-flow: row;
@@ -296,10 +292,10 @@ button.btn--control:hover {
     grid-area: body;
     display: grid;
     grid-template-areas:
-      "header-section"
-      "card-section";
-    grid-template-rows: 18rem 90%;
-    background:#151520;
+        "header-section"
+        "card-section";
+    grid-template-rows: 18rem 21rem 90%;
+    background: #151520;
   }
 
   .sort--section {
@@ -340,9 +336,9 @@ button.btn--control:hover {
     grid-area: body;
     display: grid;
     grid-template-areas:
-      "header-section"
-      "card-section";
-    grid-template-rows: 8rem 90%;
+        "header-section"
+        "card-section";
+    grid-template-rows: 8rem 23rem 90%;
   }
 
   .layout {
@@ -394,9 +390,9 @@ button.btn--control:hover {
     grid-area: body;
     display: grid;
     grid-template-areas:
-      "header-section"
-      "card-section";
-    grid-template-rows: 8rem 90%;
+        "header-section"
+        "card-section";
+    grid-template-rows: 8rem 24rem 90%;
   }
 
   .layout {
@@ -443,10 +439,11 @@ button.btn--control:hover {
     grid-area: body;
     display: grid;
     grid-template-areas:
-      "header-section"
-      "card-section";
-    grid-template-rows: 8rem 90%;
+        "header-section"
+        "card-section";
+    grid-template-rows: 8rem 26rem 90%;
     margin: 0 0 6rem 0;
+    background: #151520;
   }
 
   .layout {
