@@ -50,19 +50,3 @@ export default connect(mapStateToProps, {
   fetchMovies,
   setLoading
 })(SearchForm);
-/*
-
-<div className="input search--bar">
-                <div className="input">
-                    <form id="searchForm" onSubmit={this.onSubmit}>
-                        <input  type="text" 
-                                id="searchText" 
-                                name="searchText" 
-                                className="input--movie" 
-                                placeholder="Search" 
-                                onChange={this.onChange} />
-                        <label htmlFor="searchText" className="fa fa-filter input--icon"></label>
-                    </form>
-                </div>
-            </div>
-            */

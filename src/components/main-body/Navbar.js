@@ -12,6 +12,11 @@ export class Navbar extends Component {
         <div className="menu--section">
           <ul className="menu--list">
             <li>
+              <Link to="/">
+                <span className="fa fa-home"></span> Home
+              </Link>
+            </li>
+            <li>
               <Link to="#">
                 <span className="fa fa-film"></span> New Menu
               </Link>
