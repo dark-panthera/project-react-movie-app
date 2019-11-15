@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import MovieCard from "../cards/MovieCard";
-//import './MovieCollection.scss';
 import {
   nextPage,
   previousPage,

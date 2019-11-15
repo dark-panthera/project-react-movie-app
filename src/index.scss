@@ -16,7 +16,8 @@
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
@@ -27,6 +28,6 @@ header {
 }
 
 .grid {
+  display: -ms-grid;
   display: grid;
 }
-

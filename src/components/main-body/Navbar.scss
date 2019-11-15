@@ -1,42 +1,44 @@
-
-
 /***************************************************/
+
 .logo--section {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .logo--section img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  img {
     width: 77%;
     height: 83%;
     margin: 0.3rem 0;
   }
-  
-  .menu--section {
-    margin: 0 0 1rem 0;
-  }
-  
-  ul.menu--list {
-    list-style: none;
-  }
-  
-  ul.menu--list li {
+}
+
+.menu--section {
+  margin: 0 0 1rem 0;
+}
+
+ul.menu--list {
+  list-style: none;
+
+  li {
     margin: 0.8rem 0;
     font-size: 1.2rem;
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 1.8rem;
+
+      &:hover {
+        color: #DE3318;
+        font-weight: 600;
+      }
+    }
   }
-  
-  ul.menu--list li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1.8rem;
 }
-  
-  ul.menu--list li a:hover {
-    color: #DE3318;
-    font-weight: 600;
-  }
-  
-  .year {
-    color: #0994A8;
-  }
-  
+
+.year {
+  color: #0994A8;
+}

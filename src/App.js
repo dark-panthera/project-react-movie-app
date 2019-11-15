@@ -27,13 +27,3 @@ class App extends Component {
 }
 
 export default App;
-/*https://www.youtube.com/watch?v=T4YfrzsVLTs&list=PLG3RxIUKLJlbDDGeeoUCkinS2DUybp_1o&index=11
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas
-https://collectui.com/designers/luddeh
-https://collectui.com/designers/luddeh/analytics-chart
-https://www.d3-graph-gallery.com/graph/histogram_binSize.html
-
- <Route exact path="/" component={Home} />
-              <Route exact path="/movie/:id" component={Movie} />
-*/

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Spinner.css";
+import "./Spinner.scss";
 import {
   SPINNER_ORBIT,
   SPINNER_ROTATING,

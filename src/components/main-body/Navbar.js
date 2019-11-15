@@ -17,6 +17,11 @@ export class Navbar extends Component {
               </Link>
             </li>
             <li>
+              <Link to="chart">
+                <span className="fa fa-pie-chart"></span> Charts
+              </Link>
+            </li>
+            <li>
               <Link to="#">
                 <span className="fa fa-film"></span> New Menu
               </Link>
@@ -36,11 +41,7 @@ export class Navbar extends Component {
                 <span className="fa fa-star"></span> Rated
               </Link>
             </li>
-            <li>
-              <Link to="chart">
-                <span className="fa fa-pie-chart"></span> Charts
-              </Link>
-            </li>
+            
           </ul>
         </div>
         <div className="year--section font-12">

@@ -1,62 +1,95 @@
 .movie--card {
     width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-item-align: center;
     align-self: center;
     margin: 0 auto;
-}
-.movie--card .drop-shadow {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
-.movie--poster, .movie--poster img {
+  
+    .drop-shadow {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+    }
+  }
+  
+  .movie--poster {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 580px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
-}
-
-ul.list-group {
+  
+    img {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: auto;
+      height: 580px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+    }
+  }
+  ul.list-group {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
-}
-
-.movie--information,
-li.list-group-item {
+  }
+  
+  .movie--information, li.list-group-item {
+    display: -ms-grid;
     display: grid;
-    grid-template-areas:
-        "title titlevalue"
-        "genre genrevalue"
-        "date date"
-        "rated rated"
-        "imdbRating imdbRating"
-        "director director"
-        "writer writer"
-        "description description"
-        "description description";
-}
-
-.label--title {
+    grid-template-areas: "title titlevalue" "genre genrevalue" "date date" "rated rated" "imdbRating imdbRating" "director director" "writer writer" "description description" "description description";
+  }
+  .label--title {
     grid-area: title;
-}
-.label--title--value { 
-    grid-area: titlevalue;  
-}
-
-.label--genre{
+  }
+  
+  .label--title--value {
+    grid-area: titlevalue;
+  }
+  
+  .label--genre {
     grid-area: genre;
-}
-.label--genre--value{
+  }
+  
+  .label--genre--value {
     grid-area: genrevalue;
-}
+  }
 
 .movie--details
 {
@@ -67,31 +100,46 @@ li.list-group-item {
     background: #151520;
     margin: 0 4rem;
 }
-
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: row;
-    margin: 0 0 3rem 0;
-}
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0 0 3rem 0;
 
-.center a,
-.center a:hover {
+  a {
     text-decoration: none;
     color: #fff;
     background: #0A849B;
     padding: 0.3rem;
     border-radius: 0.2rem;
-}
 
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+      background: #0A849B;
+      padding: 0.3rem;
+      border-radius: 0.2rem;
+    }
+  }
+}
 .dv-star-rating {
     font-size: 2.5rem;
-}
-.dv-star-rating:hover{
-    color: rgb(255, 141, 0);
-}
-
-.rating--container {
+  
+    &:hover {
+      color: rgb(255, 141, 0);
+    }
+  }
+  
+  .rating--container {
     margin: 0 auto;
-}
+  }
