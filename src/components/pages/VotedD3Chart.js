@@ -113,7 +113,7 @@ export default class VotedD3Chart {
       .append("rect")
       .attr("x", d => x(d.title))
       .attr("width", x.bandwidth)
-      .attr("fill", "red")
+      .attr("fill", "#169490")
       .attr("y", HEIGHT)
       .transition()
       .duration(500)
