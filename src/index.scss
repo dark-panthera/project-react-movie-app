@@ -31,3 +31,12 @@ header {
   display: -ms-grid;
   display: grid;
 }
+
+
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+}    
+body {
+   min-height: 100%;
+}

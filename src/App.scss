@@ -434,8 +434,6 @@ ul.sort--ul {
     display: -ms-grid;
     display: grid;
     grid-template-areas: "header-section"    "search-home-section""card-section";
-    -ms-grid-rows: 8rem 23rem 90%;
-    grid-template-rows: 8rem 23rem 90%;
   }
 
   .layout {
@@ -554,9 +552,7 @@ ul.sort--ul {
     grid-area: body;
     display: -ms-grid;
     display: grid;
-    grid-template-areas: "header-section""search-home-section""card-section";
-    -ms-grid-rows: 8rem 26rem 90%;
-    grid-template-rows: 8rem 26rem 90%;
+    grid-template-areas: "header-section""search-home-section""card-section"; 
     margin: 0 0 6rem 0;
     background: #151520;
   }
